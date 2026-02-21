@@ -1,0 +1,41 @@
+### Python 相關 ###
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+### 虛擬環境 (絕對不要推上去) ###
+venv/
+.venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+### 環境變數與金鑰 (最重要！) ###
+# 因為你的專案涉及 Gemini API，務必隱藏金鑰檔案
+.env
+.env.local
+.env.*.local
+secrets.json
+
+### 編輯器與系統檔案 ###
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+### 專案特定 ###
+# 如果你有測試產生的日誌或暫存檔
+*.log
+backend/app/temp/
