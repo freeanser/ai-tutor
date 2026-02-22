@@ -1,9 +1,11 @@
 # backend/app/adapters/web_api.py (Flask 入口)
 
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from app.adapters.gemini_adapter import GeminiAdapter
 
 app = Flask(__name__)
+CORS(app)
 
 # 初始化時不傳入字串，讓 Adapter 自己去抓環境變數
 ai_service = GeminiAdapter() 
