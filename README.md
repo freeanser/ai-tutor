@@ -1,7 +1,7 @@
 # AI Tutor
 
-![Homepage](.frontend/public/assets/ai_thinking.png)
-![Catspage](.frontend/public/assets/ai_output.png)
+![Homepage](frontend/public/assets/ai_thinking.png)
+![Catspage](frontend/public/assets/ai_output.png)
 
 一個基於 **六角架構 (Hexagonal Architecture)** 設計的英文作文批改系統。
 
