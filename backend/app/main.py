@@ -12,7 +12,7 @@ from flask import Flask
 
 if __name__ == "__main__":
     # 你可以從環境變數讀取配置
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5001))
     
     print(f"AI Tutor 後端已啟動，監聽埠口: {port}")
     
